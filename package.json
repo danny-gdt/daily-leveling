@@ -1,0 +1,29 @@
+{
+  "name": "daily-leveling",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@notionhq/client": "^2.2.16",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.3",
+    "reflect-metadata": "^0.2.2",
+    "tsx": "^4.19.3",
+    "typeorm": "^0.3.21",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0"
+  }
+}
